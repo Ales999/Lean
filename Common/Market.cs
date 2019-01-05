@@ -55,6 +55,7 @@ namespace QuantConnect
             Tuple.Create(HitBTC, 19),
             Tuple.Create(OkCoin, 20),
             Tuple.Create(Bitstamp, 21),
+            Tuple.Create(MCX, 22),
         };
 
         static Market()
@@ -173,6 +174,10 @@ namespace QuantConnect
         /// Bittrex
         /// </summary>
         public const string Bittrex = "bittrex";
+        /// <summary>
+        /// MOEX
+        /// </summary>
+        public const string MCX = "mcx";
 
         /// <summary>
         /// Adds the specified market to the map of available markets with the specified identifier.

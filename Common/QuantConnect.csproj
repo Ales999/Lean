@@ -180,6 +180,7 @@
     <Compile Include="Brokerages\FxcmBrokerageModel.cs" />
     <Compile Include="Brokerages\BitfinexBrokerageModel.cs" />
     <Compile Include="Brokerages\GDAXBrokerageModel.cs" />
+    <Compile Include="Brokerages\MoexBrokerableModel.cs" />
     <Compile Include="Chart.cs" />
     <Compile Include="ChartPoint.cs" />
     <Compile Include="Data\Consolidators\FilteredIdentityDataConsolidator.cs" />

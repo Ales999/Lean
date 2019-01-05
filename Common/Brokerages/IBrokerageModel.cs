@@ -193,6 +193,9 @@ namespace QuantConnect.Brokerages
 
                 case BrokerageName.Alpaca:
                     return new AlpacaBrokerageModel(accountType);
+                
+                case BrokerageName.MCX:
+                    return new MoexBrokerableModel(accountType);
 
                 default:
                     throw new ArgumentOutOfRangeException(nameof(brokerage), brokerage, null);
